@@ -25,7 +25,7 @@ const App = () => {
       />
        <TextInput 
       style= {styles.textInput}
-      placeholder='Enter User Email'
+      placeholder='Enter User  email'
       onChangeText={(text)=>setEmail(text)}
       value={email}
       />
