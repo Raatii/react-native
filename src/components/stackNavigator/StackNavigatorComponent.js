@@ -23,14 +23,14 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/components/Home';
 import ProductListing from './src/components/ProductListing';
-import AsyncStorageComponent from './src/components/AsyncStorageComponent'
+// import AsyncStorageComponent from './src/components/AsyncStorageComponent'
 import ProductDetails from './src/components/ProductDetails'
 const App =()=>{
     const Stack = createNativeStackNavigator();
     return(
         <NavigationContainer>
             <Stack.Navigator
-            initialRouteName='Storage'
+            initialRouteName='Home'
             // screenOptions={{
             //     title:'Products',
             //     headerStyle:{
